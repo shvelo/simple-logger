@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+if [ "$#" -eq 1 ]; then
+	dt=`date`;
+	entry='['`date`'] '$1;
+	echo $entry >>~/log;
+else
+	cat ~/log;
+fi
