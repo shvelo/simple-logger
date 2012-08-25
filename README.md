@@ -10,5 +10,6 @@ Put it somewhere in your path (`/usr/bin` or something) and make it executable (
 
 	$ log [entry]
 
-If `entry` is provided, it will be logged to `~/log`
-If ran without arguments, shows contents of `~/log` 
+If `entry` is provided, it will be logged to `~/log`.
+
+If ran without arguments, shows contents of `~/log`. 
